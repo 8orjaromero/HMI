@@ -1,0 +1,94 @@
+main{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/fondo.jpg");
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("img/fondo.jpg");
+}
+
+#fondo{
+    display: flex;
+
+    background-color: cadetblue;
+}
+
+#profileInfo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    margin: 0;
+    flex-direction: column;
+}
+
+.EditProfileP{
+    display: inline-block;
+    margin: 0;
+    margin-left: 3em;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    padding-top: 0;
+    padding: 0.5rem;
+    text-align: center;
+    background-color:whitesmoke;
+    box-shadow: 5px 5px 5px 1px #000000a0;
+}
+
+#profInfo{
+    padding: 1em;
+}
+
+#pPic{
+    height: 8em;
+    padding: 1em;
+    padding-bottom: 0;
+}
+
+#editIcon{
+    height: 1em;
+}
+
+nav {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+background-color: #38767A;
+padding: 0.5rem;
+box-sizing: border-box;
+position: sticky;
+top: 0;
+}
+
+nav a {
+display: inline-block;
+background-color: #387A73;
+padding: 1rem;
+border-radius: 8px;
+box-shadow: 5px 5px 5px 1px #000000a0;
+margin: 0.5rem;
+color: whitesmoke;
+text-decoration: none;
+}
+
+nav i {
+margin: 0.1rem;
+}
+
+#logo {
+margin-right: auto;
+padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#logo img {
+width: 3rem;
+}

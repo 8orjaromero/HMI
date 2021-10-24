@@ -125,6 +125,61 @@ nav a:hover {
 }
 /* -------------------------------------- */
 
+/* --------------- Login ---------------- */
+.login {
+  justify-content: center;
+  align-items: center;
+}
+
+.login section {
+  padding: 1rem;
+  text-align: center;
+  background-color: #38767A;
+}
+
+.login  * {
+  display: block;
+}
+
+.login .action__button{
+  margin: 1rem auto 1rem auto;
+  text-decoration: none;
+  color: whitesmoke;
+  width: max-content;
+}
+
+#userIcon {
+  width: 5rem;
+}
+
+.login a {
+  text-decoration: underline;
+  color: midnightblue;
+  margin: 0.5rem;
+}
+
+.login input {
+  background-color: lightgray;
+  padding: 1rem;
+  margin: 3rem;
+}
+
+.login__header * {
+  display: inline-block;
+  color: whitesmoke;
+  border: none;
+  font-weight: normal;
+  font-size: 3rem;
+  margin: 0.5rem;
+}
+
+.login__header  {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+/* -------------------------------------- */
+
 a i {
   margin: 0.1rem;
 } 
@@ -165,7 +220,8 @@ label {
   max-height: 700px;
 }
 
-h2 {
+h2, h3 {
+  font-size: 2rem;
   border-bottom: 2px solid grey;
 }
 
@@ -202,27 +258,38 @@ article {
 
 .card__footer * {
   display: inline-block;
-  margin: 0.5rem;
 }
 
-article a {
+.external {
   padding: 0.5rem;
   background-color: darkblue;
-  border-radius: 5px;
+  border-radius: 8px;
   box-shadow: 1px ;
   color: whitesmoke;
   text-decoration: none;
   border: 2px solid darkblue;
   box-sizing: border-box;
+  margin:0.5rem ;
 }
 
-article a:hover {
-  padding: 0.5rem;
+.external:hover {
   background-color: whitesmoke;
-  border-radius: 5px;
-  box-shadow: 1px ;
   color: darkblue;
-  text-decoration: none;  
+}
+
+.internal {
+  padding: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 8px 8px 8px 1px black;
+  color: black;
+  background-color: whitesmoke;
+  border: 2px solid whitesmoke;
+  margin: 0.5rem;
+}
+
+.internal:hover {
+  color: whitesmoke;
+  background-color: black;
 }
 
 @media screen and (min-width: 950px) {
@@ -286,7 +353,6 @@ label {
 
 label input {
   height: max-content;
-  font-size: 1.5rem;
 }
 
 label p {
@@ -294,10 +360,15 @@ label p {
   font-size: 1.5rem;
 }
 
+input {
+  font-size: 1.5rem;
+}
+
 #description {
   grid-row-start: 4;
   grid-column: 1/ span 2;
   align-items: flex-start;
+  font-size: 1.5rem;
 }
 
 #create {
@@ -321,4 +392,27 @@ label p {
   background-color: whitesmoke;
   border-radius: 8px;
   color: #387A73;
+}
+
+.category {
+  margin: 1rem;
+}
+
+.category img {
+  width: 500px;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+aside h3 {
+  width: max-content;
+}
+
+.category h3 {
+  font-weight: normal;
+  width: max-content;
+  padding-right: 2rem;
+  font-size: 1.5rem;
 }
